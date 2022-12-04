@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   background-image: url(https://terror.crd.co/assets/images/gallery07/f16140c9.gif?v=6420771f);
+    background-size: cover
+   animation-none
+}
+@keyframes float {
+    from{background-position: 0 0 ;}
+    to{background-position: 100% 100%;}
+}
+section{
+    padding: 45px;
+    background-color: rgba(228, 228, 228, 0.776);
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    
+}
+header img{
+    width: 140px;
+}
+header h3{
+    color: #090909;
+    font-size: 1.35rem;
+    
+}
